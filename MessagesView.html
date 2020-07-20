@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="" type="text/css">
+  <title>Wiadomości</title>
+</head>
+
+<body>
+  <br><form method="POST" action="createMessage.php">
+ <input type="text" min="2" max="50" name="topic" required>Temat<br>
+ <input type="text" min="2" max="300" name="message" required>Treść wiadomości
+<br>Odbiorca<select name="recipient">
+  <option value="1">Admin</option>
+  <option value="2">Test</option>
+  <option value="3">Napoli</option>
+  <option value="4">Lech</option>
+  <option value="5">Arsenal</option>
+</select>
+<br><input type="submit" name="createMessage" value="Wyślij">
+</form>
+  </body>
+  </html>

@@ -1,0 +1,103 @@
+.container
+{
+    padding: 30px;
+    background: #093028;
+    background: -webkit-linear-gradient(to right, #093028, #237a57);
+    background: linear-gradient(to right, #093028, #237a57);
+    line-height: 1.5;
+    color: #bbb;
+}
+
+.container-header
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #bbb;
+    text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-header
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #bbb;
+    text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lower-header
+{
+    font-size: 24px;
+    color: #bbb;
+    text-transform: uppercase;
+    text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-list__item
+{
+    list-style-type: none;
+}
+
+.lower-list
+{
+    list-style-type: upper-roman;
+}
+
+.lower-list__item
+{
+    font-size: 16px;
+}
+
+.list-link
+{
+    text-decoration: underline;
+    color:  gray;
+    text-transform: uppercase;
+}
+
+.list-link:hover
+{
+    color: #bbb;
+    text-decoration: underline;
+}
+
+.register-list__item
+{
+    list-style-type: upper-roman;
+    font-size: 16px;
+}
+
+.container-lower-header
+{
+    text-align: center;
+}
+
+.rules
+{
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-top: 2px solid #fff;
+    border-radius: 10%;
+    padding: 10px;
+}
+    
+
+.rules:hover
+{
+    background: -webkit-linear-gradient(#99ff99, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}

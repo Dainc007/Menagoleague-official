@@ -1,0 +1,18 @@
+16 lines (14 sloc)  122 Bytes
+  
+*,
+::after,
+::before
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-size: 16px;
+}

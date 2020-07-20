@@ -1,0 +1,119 @@
+.container
+{
+    background-image: url("pictures/gamingpattern.png");
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-container
+{
+    border: 2px solid #003300;
+    background: #4db34d;
+    margin: auto;
+    padding: 0 50px 50px 50px;
+    border-radius: 2%;
+}
+
+.login-container__header
+{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.input-container
+{
+    padding: 10px;
+}
+
+.input-effect-style
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background: #e6e6e6;
+    border-radius: 2%;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.input-effect-style:hover
+{
+    background: #b3b3b3;
+}
+
+.input-effect-style::placeholder
+{
+    padding: 5px;
+}
+
+.input-effect-style:focus
+{
+    outline: none;
+    box-shadow: 0 0 2px 2px #000;
+}
+
+.checkbox-style
+{
+    width: 18px;
+    height: 18px;
+}
+
+.input-container__button-image
+{
+    padding: 30px 0;
+    width: 4vw;
+    opacity: 0.6;
+    transition: opacity 0.6s ease;
+}
+
+.input-container__button-image:hover
+{
+    opacity: 1;
+}
+
+.input-container__button-image:focus
+{
+    outline: none;
+}
+
+.login-other-link
+{
+    text-decoration: none;
+    color: #1a1a1a;
+    opacity: 0.9;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.login-other-link:hover
+{
+    opacity: 1;
+    font-weight: 900;
+}
+
+.login__logo-image
+{
+    position: absolute;
+    left: 0;
+    padding-top: 30px;
+}
+
+.login__last-sentence
+{
+    padding-top: 20px;
+}
+
+.login__last-sentence-link
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.login__last-sentence-image
+{
+    width: 30px;
+    height: 30px;
+}
