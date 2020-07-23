@@ -1,5 +1,5 @@
 <?php
-  require_once"connectPDO.php";
+  require_once"../connectPDO.php";
   session_start();
 try{
     

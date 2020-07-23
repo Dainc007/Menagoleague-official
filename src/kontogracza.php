@@ -65,7 +65,7 @@ mysqli_query($conn,"SET NAMES `utf8` COLLATE `utf8_polish_ci`");
   $newMessages = "SELECT * FROM mailbox where ToID=$idteams AND status=0";
 $checkNewMessages = $conn->query($newMessages);
 if ($checkNewMessages->num_rows > 0) {
-    echo '<a href="MessagesView.php"> Masz wiadomość!</a><br>';
+    echo '<a href="mail/MessagesView"> Masz wiadomość!</a><br>';
 }
 //include"../playerAcount/playerAcountController.php";
 //$playerAcountController = new PlayerAcountController();

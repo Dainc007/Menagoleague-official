@@ -1,5 +1,5 @@
 <?php
-include"functions.php";
+include"../functions.php";
 include"MessagesController.php";
 echo '<a href="kontogracza.php">POWRÓT</a>';
 if (empty($receivedMessages))
