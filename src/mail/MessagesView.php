@@ -1,16 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="/CSS/messagesView.css" type="text/css">
+</head>
+<body>
 <?php
 include"../functions.php";
 include"MessagesController.php";
-echo '<a href="kontogracza.php">POWRÓT</a>';
+echo '<div class="exit"><a href="kontogracza.php">POWRÓT</a></div>';
 if (empty($receivedMessages))
 {
-    echo "<br>Nie masz nowych wiadomości";
-} else { echo '<h5> Otrzymane wiadomości</h5>';
+    echo "Nie masz nowych wiadomości";
+} else { echo '<div class="messages"><nav>
+        <a href="">Otrzymane</a> |
+        <a href="">Wysłane</a></nav>
+        <table class="recived"> <tr><th>Temat</th><th>Wiadomość od Klubu</th><th>Data</th></tr>';
+        
         foreach ($receivedMessages as $message)
         {
-        echo 'Klub '.$message['teamname'].' przesłał nam wiadomość dnia '.$message['data'].' <br>Temat:'.$message['topic'].' <br> '.$message['message'].'<br><br>';
-        } echo '<form method="POST" action="MessagesController.php"><input type="submit" name="markAsRead" value="Przenieś stare wiadomości do przeczytanych"></form>';
-    }
+        echo '<tr> <td>'.$message['topic'].'</td>  <td> '.$message['teamname'].' </td>  <td>'.$message['data'].'</td>  </tr>';
+        } echo '</table></div>';
+    } //Ten formularz spróbujemy zastąpić innym rozwiązaniem.
+    //Niech kada wiadomość zostanie oznaczona jako przeczytana po kliknięciu<form method="POST" action="MessagesController.php">
+    //<input type="submit" name="markAsRead" value="Przenieś stare wiadomości do przeczytanych"></form>
 
 if (empty($sentMessages)){
     echo 'Nie wysłałeś jeszcze żadnej wiadmości';
@@ -40,3 +51,5 @@ if(empty($getRecipients)) {
 
 
 ?>
+</body>
+</html>
