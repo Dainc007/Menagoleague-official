@@ -9,7 +9,7 @@
     
     <form method="POST" action="freeAgentController.php">
     <input type="number" name="idplayers" required> ID zawodnika<br>
-    <input type="submit" name="sign" value="zaproponuj kontrakt"disabled>
+    <input type="submit" name="sign" value="zaproponuj kontrakt" disabled>
     </form>
     </body> 
 </html>

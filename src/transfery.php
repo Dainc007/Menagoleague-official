@@ -149,7 +149,7 @@ if ($idteams !=0)
           <a href="/wyszukiwarka.php">Wyszukiwarka</a>
           <a href="http://menagoleague.pl/transferlist.php?order=idtransferlist&szukaj=Poka%C5%BC+List%C4%99">Lista Transferowa</a>
           <a href="oferty.php">Oferty</a>
-          <a href="paczka.php">Paczki</a>
+          <a href="http://menagoleague.pl/pack/packView">Paczki</a>
 
 
 
@@ -160,7 +160,7 @@ if ($idteams !=0)
     <input type="number" name="idplayers" min="1" value="" required > ID piłkarza z Twojej drużyny, którego chciałbyś sprzedać<br>
     <input type="number" name="idteams2" min="1" value="" required > ID drużyny, której chcesz sprzedać zawodnika  <br>
     <input type="number" name="cena" min="1" value="" required > kwota transferu <br>
-     <input type="submit" name="transfer" value="Sprzedaj"disabled>   <br> <br>
+     <input type="submit" name="transfer" value="Sprzedaj" disabled>   <br> <br>
     </form>
    
 

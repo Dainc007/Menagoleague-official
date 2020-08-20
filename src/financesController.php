@@ -9,6 +9,6 @@ try{
     echo 'Not Connected '.$ex->getMessage();
 }
 $idteams = $_SESSION['idteams'];
-$stmt = $con->prepare("SELECT * from finances where idteams=$idteams");
+$stmt = $con->prepare("SELECT * from finances where idteams=$idteams ORDER BY data DESC");
 $stmt->execute();
 $finances = $stmt->fetchAll();

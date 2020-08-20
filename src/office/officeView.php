@@ -1,0 +1,59 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/styles/globalStyles.css">
+    <link rel="stylesheet" href="../CSS/styles/subpage_central.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="gray-room-bg">
+        <div class="user-info-wrapper">
+            <div class="user-info">
+                <div class="user-info__logo">
+                    <img src="../CSS/pictures/arsenal.png" alt="herb">
+                </div>
+                <div class="user-info__team-and-name">
+                    <span class="user-name">
+                        Nazwa użytkownika
+                    </span>
+                    <span class="team-name">
+                        Drużyna
+                    </span>
+                </div>
+            </div>
+            <div class="user-morale">
+                100
+            </div>
+        </div>
+
+        <div class="nav-and-content-wrapper">
+            <nav class="main-nav">
+                <a class="main-nav__item active" href="#">
+                   <span>Centrala</span>
+                </a>
+                <a class="main-nav__item" href="#">
+                    <span>Skład</span> 
+                </a>
+                <a class="main-nav__item" href="#">
+                    <span>Transfery</span>  
+                </a>
+                <a class="main-nav__item" href="#">
+                    <span>Biuro</span>   
+                </a>
+                <a class="main-nav__item" href="#">
+                    <span>Sezon</span>  
+                </a>
+            </nav>
+
+            <main class="content-block central">
+                
+            </main>
+        </div>
+        
+    </div>
+</body>
+</html>

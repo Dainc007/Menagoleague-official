@@ -52,15 +52,15 @@ require_once"connect.php";
             
         </div>
         <div class="wystaw">
-            <h4> Wystaw piłkarza na listę transferową </h4>
+            <h4> Aby wystawić zawodnika na sprzedaż, przejdź do zakładki <a href="myteam/myTeamView">Moja Drużyna</a> </h4>
             <form action="transferlist.php" method="post">
-                <label>Piłkarz:<input type="text" name="name" value="" required></label>
-                <label>Pozycja:<input type="text" name="position" value="" required> </label>
-                <label>Skill:<input type="number" name="skill" value="" required> </label>
-                <label>Cena:<input type="number" name="cena" value="" required></label>
+                <label>Piłkarz:<input type="text" name="name" value="" required disabled></label>
+                <label>Pozycja:<input type="text" name="position" value="" required disabled> </label>
+                <label>Skill:<input type="number" name="skill" value="" required disabled> </label>
+                <label>Cena:<input type="number" name="cena" value="" required disabled></label>
                 <label>Podaj dane do kontaktu - FB/GamerTag bądź
                     jakikolwiek inny preferowany przez Ciebie sposób kontaktu:<input type="text" name="kontakt" value="" required> </label>
-                <input type="submit" name="submit" value="Dodaj">
+                <input type="submit" name="submit" value="Dodaj"disabled>
         </div>
 
         <div class="wycofaj">

@@ -41,7 +41,7 @@ $result10 = $conn->query($sql10);
 if ($result10->num_rows > 0) {
     echo "Ten mecz istnieje już w bazie!";
      echo "<a href='wynikiLM.php'>POWRÓT</a>";
-    exit();
+    //exit();
 } else {
 
 //pobieramy informację, które miejsce w rankingu zajmują zespoły

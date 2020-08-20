@@ -1,3 +1,142 @@
-.container{
-background-image: url("pictures/gamingpattern.png");
+body
+{
+background: rgb(220,224,230);
+background: linear-gradient(125deg, rgba(220,224,230,1) 0%, rgba(53,60,76,1) 1%, rgba(13,15,9,1) 100%);
+background-repeat: no-repeat;
+//background-size: auto;
+height: auto;
+width: auto;
+color: #185875;
+font-family: 'Lato', sans-serif;
+font-weight: bold;
+}
+
+
+a
+{
+    color: #FB667A;
+}
+
+.section
+{
+background-color:white;
+height:50px;
+}
+
+div#logo
+{
+background-color:red;
+height:50px;
+width:50px;
+
+
+}
+
+div#name
+{
+background-color:orange;
+height:50px;
+width:200px;
+
+}
+
+div#pkt
+{
+background-color:blue;
+height:50px;
+width:50px;
+
+
+
+}
+
+div#finances
+{
+background-color:green;
+height:50px;
+width:300px;
+left:700px;
+position: relative;
+}
+
+.gamer
+{
+display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+div#nav
+{
+margin:10px;
+
+width:700px;
+height:50px;
+background-color:purple;
+}
+
+a
+{
+font-size:20px;
+font-weight:25px;
+}
+
+
+div#desktop
+{
+background: rgb(182,191,190);
+background: linear-gradient(50deg, rgba(182,191,190,0.7441351540616247) 0%, rgba(167,177,177,0.8365721288515406) 35%, rgba(142,151,154,0.788953081232493) 100%);
+//opacity;
+height:500px;
+margin: auto;
+  width: 80%;
+  border: 3px solid silver;
+  padding: 10px;
+}
+
+.day {
+  background-color:pink;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  width:100px;
+  height:100px;
+}
+
+.week
+{
+    background: rgb(215,226,225);
+background: linear-gradient(200deg, rgba(215,226,225,0.7441351540616247) 0%, rgba(240,242,242,0.8365721288515406) 35%, rgba(199,213,217,0.788953081232493) 100%);
+width:65%;
+}
+
+div#asistant
+{
+width:25%;
+  height:70%;
+background: rgb(215,226,225);
+background: linear-gradient(200deg, rgba(215,226,225,0.7441351540616247) 0%, rgba(240,242,242,0.8365721288515406) 35%, rgba(199,213,217,0.788953081232493) 100%);
+}
+
+div#transfers
+{
+width:25%;
+  height:70%;
+background: rgb(215,226,225);
+background: linear-gradient(200deg, rgba(215,226,225,0.7441351540616247) 0%, rgba(240,242,242,0.8365721288515406) 35%, rgba(199,213,217,0.788953081232493) 100%);
+}
+div#add
+{
+width:49%;
+  height:70%;
+background: rgb(215,226,225);
+background: linear-gradient(200deg, rgba(215,226,225,0.7441351540616247) 0%, rgba(240,242,242,0.8365721288515406) 35%, rgba(199,213,217,0.788953081232493) 100%);
+}
+
+.down-element
+{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
 }

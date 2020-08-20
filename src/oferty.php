@@ -126,7 +126,7 @@ if($money>=$cena) {
      <input type="number" min="1" name="idteams2" required > ID Drużyny <br>
      <input type="number" min="1" name="cena" required > Kwota Transferu <br>
      <input type="text" maxlength="300" name="kom" width="300" height="300" required > Komentarz <br>
-     <input type="submit" name="submit" value="Złóż ofertę"disabled >
+     <input type="submit" name="submit" value="Złóż ofertę" disabled >
     </form>
 
 

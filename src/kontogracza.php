@@ -35,11 +35,12 @@ window.smartsupp||(function(d) {
 <body>
 <div class="container">
  <nav class="menu">
+        <a href="/playerAccount/central" class="current">Nowy Widok Strony</a>
           <a href="/myteam/myTeamView" class="current">Moja Drużyna</a>
            
          <a href="/transfery">Transfery </a>
           <a href="/tabela/tit2">Tabele i Teminarz</a>
-          <a href="MessagesView">Poczta</a>
+          <a href="http://menagoleague.pl/mail/MessagesView?recived=on">Poczta</a>
            <a href="rankingView">Ranking Graczy</a>
           <a href="pomoc.html" target="_blank">Pomoc</a>
           
@@ -65,7 +66,7 @@ mysqli_query($conn,"SET NAMES `utf8` COLLATE `utf8_polish_ci`");
   $newMessages = "SELECT * FROM mailbox where ToID=$idteams AND status=0";
 $checkNewMessages = $conn->query($newMessages);
 if ($checkNewMessages->num_rows > 0) {
-    echo '<a href="MessagesView.php"> Masz wiadomość!</a><br>';
+    echo '<a href="http://menagoleague.pl/mail/MessagesView?recived=on"> Masz wiadomość!</a><br>';
 }
 //include"../playerAcount/playerAcountController.php";
 //$playerAcountController = new PlayerAcountController();
@@ -99,7 +100,7 @@ OR idteam2=$idteams AND g_1 is null
 ORDER BY data ASC
 LIMIT 1";
 
-$getUserNextGame = $conn->query($nextGame);
+/*$getUserNextGame = $conn->query($nextGame);
 if ($getUserNextGame->num_rows > 0) {
     echo '<br>Najbliższy przeciwnik: ';
     
@@ -135,7 +136,7 @@ if ($getUserNextGame->num_rows > 0) {
 } else {
    echo 'Nie masz nadchodzących spotkań';
 }
-
+*/
 echo '<br><br><a href="financesView.php">Finanse</a><br><br>';
 
 
@@ -250,5 +251,5 @@ $conn->close();
 
   ?>
   </div>
-  <body>
+  </body>
     </html>

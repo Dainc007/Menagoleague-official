@@ -125,7 +125,7 @@ echo 'Twój klub jest pusty.';
   <h5> Zwolnij Piłkarza </h5>
   <form action="myTeamView.php" method="POST">
       <input type="number" name="idfire" placeholder="ID Piłkarza">
-      <input type="submit" name="release" value="Zwolnij zawodnika" onclick="return confirm('Jesteś pewien, że chcesz zwolnić piłkarza?');"disabled>
+      <input type="submit" name="release" value="Zwolnij zawodnika" onclick="return confirm('Jesteś pewien, że chcesz zwolnić piłkarza?');" disabled>
   </form>
   </div>
   </div>

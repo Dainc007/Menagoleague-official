@@ -58,6 +58,10 @@
           <ul>
                <li><a href="../preSeasonTournamentsView.php">Dołącz do turnieju</a></li>
                <li><a href="../createPreseasonTournament.php">Stwórz Turniej</a></li></ul>
+               <li><a href="#">Puchar Wakacyjny</a>
+          <ul>
+               <li><a href="http://menagoleague.pl/playerAccount/central">Tabela</a></li>
+               <li><a href="http://menagoleague.pl/fixtures/fixturesView?set_score=Zg%C5%82osi%C4%87+Wynik">Terminarz</a></li></ul>
                
   </body>
     </html>
