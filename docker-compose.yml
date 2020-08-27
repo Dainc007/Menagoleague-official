@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: my_secret_pw_shh
+      MYSQL_DATABASE: 14760_menago
+      MYSQL_USER: 14760_menago
+      MYSQL_PASSWORD: Rv8K@79sIA!0D
+    volumes:
+      - ./database/14760_menago.sql:/docker-entrypoint-initdb.d/14760_menago.sql
+    ports:
+      - "3336:3306"
+  web:
+    image: php:7.2.2-apache
+    environment:
+      DB_HOST_NAME: database
+      DB_PORT: 3336
+    container_name: php_web
+    depends_on:
+      - db
+    volumes:
+      - ./src/:/var/www/html/
+    ports:
+      - "8100:80"
+    stdin_open: true
+    tty: true
+    command: "/bin/sh -c 'docker-php-ext-install mysqli pdo pdo_mysql  && exec apache2-foreground'"
