@@ -10,7 +10,7 @@ class DatabaseConnection
 
     public function __construct()
     {
-        $this->password = "Rv8K@79sIA!0D";
+        $this->password = "";
         $host = getenv('DB_HOST_NAME') ?? 'localhost';
         $this->dsn = "mysql:host={$host};dbname=14760_menago;charset=utf8";
         $this->username = '14760_menago';
